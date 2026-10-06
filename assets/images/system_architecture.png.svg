@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#eef3f7"/>
+  <text x="600" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#102a43">Student Management System Architecture</text>
+  <text x="600" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#52606d">Role-based users access modules through PHP pages connected to a MySQL database</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#334e68"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#1f2933" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="120" y="140" width="230" height="110" rx="8" fill="#ffffff" stroke="#d9e2ec" filter="url(#shadow)"/>
+    <text x="235" y="178" text-anchor="middle" font-size="22" font-weight="700" fill="#102a43">Administrator</text>
+    <text x="235" y="208" text-anchor="middle" font-size="15" fill="#52606d">Manage users, courses,</text>
+    <text x="235" y="230" text-anchor="middle" font-size="15" fill="#52606d">departments and reports</text>
+
+    <rect x="485" y="140" width="230" height="110" rx="8" fill="#ffffff" stroke="#d9e2ec" filter="url(#shadow)"/>
+    <text x="600" y="178" text-anchor="middle" font-size="22" font-weight="700" fill="#102a43">Lecturer</text>
+    <text x="600" y="208" text-anchor="middle" font-size="15" fill="#52606d">Upload marks, generate</text>
+    <text x="600" y="230" text-anchor="middle" font-size="15" fill="#52606d">reports and monitor progress</text>
+
+    <rect x="850" y="140" width="230" height="110" rx="8" fill="#ffffff" stroke="#d9e2ec" filter="url(#shadow)"/>
+    <text x="965" y="178" text-anchor="middle" font-size="22" font-weight="700" fill="#102a43">Student</text>
+    <text x="965" y="208" text-anchor="middle" font-size="15" fill="#52606d">View grades, GPA, reports</text>
+    <text x="965" y="230" text-anchor="middle" font-size="15" fill="#52606d">and recommendations</text>
+
+    <line x1="235" y1="250" x2="500" y2="325" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="600" y1="250" x2="600" y2="315" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="965" y1="250" x2="700" y2="325" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="430" y="320" width="340" height="105" rx="8" fill="#0b7285" filter="url(#shadow)"/>
+    <text x="600" y="358" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">Login Page</text>
+    <text x="600" y="389" text-anchor="middle" font-size="16" fill="#dff7fb">Authentication and role checking</text>
+
+    <line x1="600" y1="425" x2="600" y2="480" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="430" y="485" width="340" height="95" rx="8" fill="#243b53" filter="url(#shadow)"/>
+    <text x="600" y="522" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">Dashboard</text>
+    <text x="600" y="551" text-anchor="middle" font-size="16" fill="#d9e2ec">Role-based navigation tabs</text>
+
+    <line x1="430" y1="545" x2="230" y2="620" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="600" y1="580" x2="600" y2="620" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="770" y1="545" x2="970" y2="620" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="80" y="620" width="300" height="85" rx="8" fill="#ffffff" stroke="#d9e2ec" filter="url(#shadow)"/>
+    <text x="230" y="653" text-anchor="middle" font-size="19" font-weight="700" fill="#102a43">Management Modules</text>
+    <text x="230" y="681" text-anchor="middle" font-size="14" fill="#52606d">Users, students, courses, departments</text>
+
+    <rect x="450" y="620" width="300" height="85" rx="8" fill="#ffffff" stroke="#d9e2ec" filter="url(#shadow)"/>
+    <text x="600" y="653" text-anchor="middle" font-size="19" font-weight="700" fill="#102a43">Academic Modules</text>
+    <text x="600" y="681" text-anchor="middle" font-size="14" fill="#52606d">Marks, GPA analysis, recommendations</text>
+
+    <rect x="820" y="620" width="300" height="85" rx="8" fill="#ffffff" stroke="#d9e2ec" filter="url(#shadow)"/>
+    <text x="970" y="653" text-anchor="middle" font-size="19" font-weight="700" fill="#102a43">Reports and Charts</text>
+    <text x="970" y="681" text-anchor="middle" font-size="14" fill="#52606d">Performance reports and score charts</text>
+
+    <line x1="230" y1="705" x2="500" y2="735" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="600" y1="705" x2="600" y2="728" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="970" y1="705" x2="700" y2="735" stroke="#334e68" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="500" y="708" width="200" height="42" rx="8" fill="#5f249f"/>
+    <text x="600" y="735" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">MySQL Database</text>
+  </g>
+</svg>
